@@ -37,3 +37,11 @@
 #    auth:
 #        vncauth:
 #            enabled: true # Enable auth via /etc/kvmd/vncpasswd
+# nanopi no atx gpio
+# kvmd:
+#     atx:
+#         type: gpio
+#         power_led_pin: 2
+#         hdd_led_pin: 3
+#         power_switch_pin: 203
+#         reset_switch_pin: 0
